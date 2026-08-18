@@ -1,3 +1,12 @@
-# Lotto Winner Simulator
+# 로또 1등 도달 시뮬레이터
 
-Korean Lotto 6/45 first-prize simulation web app.
+한국 로또 6/45 규칙으로, 사용자가 고른 조합 1장과 자동 조합 99장을 매주 구매했을 때 1등에 당첨될 때까지 시뮬레이션하는 웹 앱입니다.
+
+## 실행
+
+```bash
+npm install
+npm run dev
+```
+
+숫자 6개를 선택한 뒤 시뮬레이션을 시작할 수 있습니다. 자동 번호는 매주 새로 생성되며 선택 조합과 중복되지 않습니다.
